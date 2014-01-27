@@ -5,6 +5,11 @@
 
 import java.awt.*;
 
+/**
+ * An abstract class that handles starting, pausing, and destroying
+ * of a game. It runs as a JPanel.
+ * @author jvanderhyde
+ */
 public abstract class GamePanel extends javax.swing.JPanel
     implements Runnable
 {
