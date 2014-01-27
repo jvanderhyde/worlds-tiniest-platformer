@@ -36,7 +36,7 @@ public class ImageSprite
 	this.createCompatibleImage(gc);
     }
 
-    protected void setImage(String name)
+    protected final void setImage(String name)
     {
         image=(new ImageIcon(this.getClass().getResource(name))).getImage();
         //image=(new ImageIcon(name)).getImage();

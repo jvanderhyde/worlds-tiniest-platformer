@@ -23,7 +23,7 @@ public class LargeImageSprite extends ImageSprite
 	createTiles();
     }
 
-    protected void createTiles()
+    protected final void createTiles()
     {
 	//Create a BufferedImage to break up into tiles
 	BufferedImage bim;

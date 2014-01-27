@@ -25,7 +25,7 @@ public class KeyHandler
         releaseAll();
     }
 
-    public void releaseAll()
+    public final void releaseAll()
     {
         for (int i=0; i<NUM_KEYS; i++)
             keyFlags[i]=false;
