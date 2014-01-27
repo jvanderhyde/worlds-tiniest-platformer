@@ -1,10 +1,14 @@
 //Applet for running the game
 //James Vanderhyde, 15 July 2010
 
+/**
+ * The class that runs the game as an applet.
+ * @author jvanderhyde
+ */
 public class MainApplet extends javax.swing.JApplet
 {
-    PlatformerGame game;
-    Thread gameLoop;
+    private PlatformerGame game;
+    private Thread gameLoop;
 
     @Override
     public void init()
