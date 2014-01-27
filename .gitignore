@@ -4,3 +4,12 @@
 *.jar
 *.war
 *.ear
+
+# Netbeans stuff #
+*/dist/
+*/build/
+*/nbproject/private/
+
+# Mac stuff #
+.DS_Store
+**/.svn/
