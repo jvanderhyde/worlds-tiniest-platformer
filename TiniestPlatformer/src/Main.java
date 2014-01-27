@@ -4,6 +4,10 @@
 import javax.swing.JFrame;
 import java.awt.event.WindowEvent;
 
+/**
+ * The class that runs the game as a stand-alone application.
+ * @author jvanderhyde
+ */
 public final class Main
 {
     private static Main instance = null; //singleton
